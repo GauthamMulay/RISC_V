@@ -32,6 +32,7 @@ The following are basic combinational logic in TL-Verilog:
 
 ##### Sequential Logic
 The following are sequential logic coded in TL-Verilog:
+
 1.Fibonacci Series:
 ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/deaee09c-d307-432c-8719-1a83acf71cb8)
 
