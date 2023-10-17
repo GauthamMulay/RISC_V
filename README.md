@@ -32,7 +32,7 @@ The following are basic combinational logic in TL-Verilog:
 
 ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/dd6a50b0-a468-4d0b-a3b1-9d2f62ca2a72)
 
-#### Sequential Logic
+### Sequential Logic
 The following are sequential logic coded in TL-Verilog:
 
 1.Fibonacci Series:
@@ -47,7 +47,7 @@ The following are sequential logic coded in TL-Verilog:
 
 ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/c5f4a64b-3917-4cfd-b55f-1c61aaa04906)
 
-#### Validity
+### Validity
 * Addding validity makes it easier to debug.
 * It provides a cleaner design.
 * Automatic clock gating.
