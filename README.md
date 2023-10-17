@@ -17,10 +17,12 @@ The following are basic combinational logic in TL-Verilog:
   - Compile by clicking on ``` E ``` on the top right corner
     
 2.XOR gate:
- ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/031ca215-248d-4c0b-b6d9-84d0b679a1a5)
+
+  ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/031ca215-248d-4c0b-b6d9-84d0b679a1a5)
 
 3.Vector:
- ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/c201c800-097b-41a3-9210-b2ebe83c5156)
+
+  ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/c201c800-097b-41a3-9210-b2ebe83c5156)
 
 4.MUX (With and without vector):
 ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/198a8782-1fcf-41ca-8c65-226fb32771c7)
