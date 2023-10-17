@@ -65,23 +65,29 @@ The CPU serves as the core of the RISC-V processor, responsible for executing in
 - Execution (EX): Performs arithmetic and logic operations.
 - Memory (MEM): Manages data memory access.
 - Write Back (WB): Writes results back to registers.
+  
 **2.Program Counter:**
   - Program Counter is a register that contains the address of the next instruction to be executed.
   - For the initial state, before fetching the first ever instruction, there is a presence of a reset signal that will reset the PC value to 0.
   - For branch instructions, we will have immediate instructions, for which we have to add an offset value to the PC. So for branch instructions, ```NextPC = Incremented PC + Offset value```
+    
    ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/0eb54e2c-bab2-4322-8468-e71e900c3043)
 
 **3.Instruction Fetch:**
   - In the Instruction Fetch logic, the instructions are fetched from the instruction memory amd passed to the Decode logic for computation.
   - In our case, the Makerchip shell provides us an instantiation to the instruction memory, which contains a test program to compute the sum of numbers from 1 to 9.
+    
     ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/6f664766-ffbe-4347-bf59-16ac1a2558cc)
 
 **4.Decode:**
   - Decodes instructions fetched from memory. It translates instructions into actions for the CPU to execute.
+  - 
     ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/f63e56d0-ad92-4cd0-9ea5-a1806b9e528a)
   - Decode with validity:
+  - 
     ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/20a86499-27f9-4c27-9d27-acd72ec8e98b)
   - Individual instructions decode:
+  - 
     ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/768596a8-1f36-4244-b279-5da090c2c2cb)
 
 **5.Register File Read:**
@@ -89,12 +95,15 @@ The CPU serves as the core of the RISC-V processor, responsible for executing in
 
 **6.ALU:**
   - The ALU performs arithmetic and logic operations as directed by the CPU's instructions. It is the computational workhorse of the processor.
+    
     ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/a911ffd4-dd20-4104-adda-fe4ad7ef2f2b)
 
 **7.Register File Write:**
+
     ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/a7b2fb67-4dd2-458f-adfd-8b72763c1e02)
 
 **8.Branch:**
+
     ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/de94df9f-7415-401a-8c63-4befa1113416)
 
 **9.Checking with Testbench:**
