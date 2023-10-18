@@ -199,7 +199,7 @@ The CPU serves as the core of the RISC-V processor, responsible for executing in
 
 ## Final RISC-V Core
 
-<img width="264" alt="image" src="https://github.com/GauthamMulay/RISC_V/assets/113660503/f02767c3-c57c-40fc-b8ce-62d1477ba21d">
+  <img width="265" alt="image" src="https://github.com/GauthamMulay/RISC_V/assets/113660503/9ffb077d-d9eb-4d79-be33-7213ee4d8e0c">
 
     
 
