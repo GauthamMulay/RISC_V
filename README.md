@@ -90,12 +90,15 @@ The CPU serves as the core of the RISC-V processor, responsible for executing in
     ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/6f664766-ffbe-4347-bf59-16ac1a2558cc)
 
 **4.Decode:**
+
   - Decodes instructions fetched from memory. It translates instructions into actions for the CPU to execute.
     
     ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/f63e56d0-ad92-4cd0-9ea5-a1806b9e528a)
+    
   - Decode with validity:
     
     ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/20a86499-27f9-4c27-9d27-acd72ec8e98b)
+    
   - Individual instructions decode:
     
     ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/768596a8-1f36-4244-b279-5da090c2c2cb)
@@ -119,6 +122,7 @@ The CPU serves as the core of the RISC-V processor, responsible for executing in
   ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/de94df9f-7415-401a-8c63-4befa1113416)
 
 **9.Checking with Testbench:**
+
     ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/cf2424e1-2488-4f34-b037-2f0683205c73)
 
 ## Day 5
