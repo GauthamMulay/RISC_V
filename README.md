@@ -176,8 +176,25 @@ The CPU serves as the core of the RISC-V processor, responsible for executing in
 
 ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/8461ab4b-408f-4848-b288-5d013c91be47)
 
+### Load/Store Instructions and Completing RISC-V CPU
+
+1. Lab to redirect loads:
+
+![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/e939be2f-f840-4809-a658-3484c4a33063)
+
+2. Lab to Data From Memory to Register File:
+
+![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/44fb6a81-36ca-4493-8ccc-7f23486a5cdd)
 
 
+3. Lab to Instantiate Data Memory to CPU:
+
+![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/61267133-1292-482c-ae6a-5771e9575265)
+
+  
+4. Lab for Jump Instructions:
+
+![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/9ab0a8fe-0c9f-4e4d-8752-16e12c565012)
 
     
 
