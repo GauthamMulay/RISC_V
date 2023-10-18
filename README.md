@@ -121,6 +121,57 @@ The CPU serves as the core of the RISC-V processor, responsible for executing in
 **9.Checking with Testbench:**
     ![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/cf2424e1-2488-4f34-b037-2f0683205c73)
 
+## Day 5
+### Pipelining the CPU
+#### Introduction to Control Flow and Read After Write Hazard
+**1.Waterfall diagram:**
+
+<img width="446" alt="image" src="https://github.com/GauthamMulay/RISC_V/assets/113660503/8354dd73-716c-4054-980b-1c75b1457bd4">
+
+
+**2.Control flow hazard:**
+- Control flow hazards, also known as control hazards, occur when the normal sequential flow of instructions is disrupted due to conditional branch instructions.
+- These hazards can lead to incorrect program execution and reduced performance.
+- There are three main types of control flow hazards:
+       * Branch Hazards: These occur when a branch instruction (e.g., a conditional jump) is encountered, and the processor is unsure about the branch target. The processor may need to stall the pipeline or make speculative predictions to mitigate the impact of these hazards.
+       * Jump Hazards: Jump instructions that cause a change in the program counter can also create hazards, as they affect the instruction fetch stage and can lead to pipeline bubbles (stalls).
+       * Return Hazards: Similar to jump hazards, but related to function calls and returns. These can disrupt the flow of instructions.
+
+  
+**3.Read After Write Hazard:**
+  - Read-after-write hazards, often referred to as data hazards, occur when an instruction depends on the result of a previous instruction that has not yet completed.
+- There are three main types of read-after-write hazards:
+          * True Data Dependency: This occurs when an instruction (e.g., a load or ALU operation) depends on the result of a previous instruction. The hazard arises because the dependent instruction cannot proceed until the producing instruction has written its result.
+          * Anti-Data Dependency: This occurs when a previous instruction depends on a result produced by a later instruction. This situation can cause issues when instructions are executed out of order.
+          * Output Data Dependency (Write-After-Read): This happens when two instructions need to read from the same register, and the second instruction wants to read before the first instruction writes to the register. This can lead to incorrect results if not managed properly.
+
+#### LABS
+1. Lab to create 3-Cycle Valid Signal:
+
+![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/2658a400-bcdf-44ef-888c-3a758c01a4bb)
+
+2. 	Modify 3 cycle to distribute logic:
+   
+ [image](https://github.com/GauthamMulay/RISC_V/assets/113660503/118ba104-5499-4845-863d-6222a7645ad0)
+
+#### Solutions to pipelline hazard:
+
+1.Register file bypass:
+
+![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/b071e39c-ba5a-4714-bb50-a593367e1d4a)
+
+2.To correct Branch Target path:
+
+![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/43af164b-f20c-44dd-a8c2-df5592796b66)
+
+3.Instruction Decode:
+
+![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/1c7a2f1d-014b-4a9b-9057-6aee13ab2a46)
+
+4.Complete ALU:
+
+![image](https://github.com/GauthamMulay/RISC_V/assets/113660503/8461ab4b-408f-4848-b288-5d013c91be47)
+
 
 
 
